@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7C4FC2B1CCDCA830068FDF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4FC2A1CCDCA830068FDF0 /* main.m */; };
+		E7C4FC2E1CCDCA830068FDF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4FC2D1CCDCA830068FDF0 /* AppDelegate.m */; };
+		E7C4FC311CCDCA830068FDF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4FC301CCDCA830068FDF0 /* ViewController.m */; };
+		E7C4FC341CCDCA830068FDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC321CCDCA830068FDF0 /* Main.storyboard */; };
+		E7C4FC361CCDCA830068FDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC351CCDCA830068FDF0 /* Assets.xcassets */; };
+		E7C4FC391CCDCA830068FDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC371CCDCA830068FDF0 /* LaunchScreen.storyboard */; };
+		E7C4FC441CCDCA830068FDF0 /* StarFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4FC431CCDCA830068FDF0 /* StarFieldTests.m */; };
+		E7C4FC4F1CCDCA830068FDF0 /* StarFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4FC4E1CCDCA830068FDF0 /* StarFieldUITests.m */; };
+		E7C4FC611CCDCAE00068FDF0 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC5D1CCDCAE00068FDF0 /* brown.png */; };
+		E7C4FC621CCDCAE00068FDF0 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC5E1CCDCAE00068FDF0 /* green.png */; };
+		E7C4FC631CCDCAE00068FDF0 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC5F1CCDCAE00068FDF0 /* red.png */; };
+		E7C4FC641CCDCAE00068FDF0 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C4FC601CCDCAE00068FDF0 /* violet.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7C4FC401CCDCA830068FDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C4FC1E1CCDCA830068FDF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C4FC251CCDCA830068FDF0;
+			remoteInfo = StarField;
+		};
+		E7C4FC4B1CCDCA830068FDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C4FC1E1CCDCA830068FDF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C4FC251CCDCA830068FDF0;
+			remoteInfo = StarField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7C4FC261CCDCA830068FDF0 /* StarField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C4FC2A1CCDCA830068FDF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7C4FC2C1CCDCA830068FDF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7C4FC2D1CCDCA830068FDF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7C4FC2F1CCDCA830068FDF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7C4FC301CCDCA830068FDF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7C4FC331CCDCA830068FDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7C4FC351CCDCA830068FDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7C4FC381CCDCA830068FDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7C4FC3A1CCDCA830068FDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C4FC3F1CCDCA830068FDF0 /* StarFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C4FC431CCDCA830068FDF0 /* StarFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarFieldTests.m; sourceTree = "<group>"; };
+		E7C4FC451CCDCA830068FDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C4FC4A1CCDCA830068FDF0 /* StarFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C4FC4E1CCDCA830068FDF0 /* StarFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarFieldUITests.m; sourceTree = "<group>"; };
+		E7C4FC501CCDCA830068FDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C4FC5D1CCDCAE00068FDF0 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		E7C4FC5E1CCDCAE00068FDF0 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		E7C4FC5F1CCDCAE00068FDF0 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		E7C4FC601CCDCAE00068FDF0 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violet.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C4FC231CCDCA830068FDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FC3C1CCDCA830068FDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FC471CCDCA830068FDF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7C4FC1D1CCDCA830068FDF0 = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC281CCDCA830068FDF0 /* StarField */,
+				E7C4FC421CCDCA830068FDF0 /* StarFieldTests */,
+				E7C4FC4D1CCDCA830068FDF0 /* StarFieldUITests */,
+				E7C4FC271CCDCA830068FDF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C4FC271CCDCA830068FDF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC261CCDCA830068FDF0 /* StarField.app */,
+				E7C4FC3F1CCDCA830068FDF0 /* StarFieldTests.xctest */,
+				E7C4FC4A1CCDCA830068FDF0 /* StarFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C4FC281CCDCA830068FDF0 /* StarField */ = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC2C1CCDCA830068FDF0 /* AppDelegate.h */,
+				E7C4FC2D1CCDCA830068FDF0 /* AppDelegate.m */,
+				E7C4FC2F1CCDCA830068FDF0 /* ViewController.h */,
+				E7C4FC301CCDCA830068FDF0 /* ViewController.m */,
+				E7C4FC321CCDCA830068FDF0 /* Main.storyboard */,
+				E7C4FC351CCDCA830068FDF0 /* Assets.xcassets */,
+				E7C4FC371CCDCA830068FDF0 /* LaunchScreen.storyboard */,
+				E7C4FC5C1CCDCA920068FDF0 /* Star */,
+				E7C4FC3A1CCDCA830068FDF0 /* Info.plist */,
+				E7C4FC291CCDCA830068FDF0 /* Supporting Files */,
+			);
+			path = StarField;
+			sourceTree = "<group>";
+		};
+		E7C4FC291CCDCA830068FDF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC2A1CCDCA830068FDF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7C4FC421CCDCA830068FDF0 /* StarFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC431CCDCA830068FDF0 /* StarFieldTests.m */,
+				E7C4FC451CCDCA830068FDF0 /* Info.plist */,
+			);
+			path = StarFieldTests;
+			sourceTree = "<group>";
+		};
+		E7C4FC4D1CCDCA830068FDF0 /* StarFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC4E1CCDCA830068FDF0 /* StarFieldUITests.m */,
+				E7C4FC501CCDCA830068FDF0 /* Info.plist */,
+			);
+			path = StarFieldUITests;
+			sourceTree = "<group>";
+		};
+		E7C4FC5C1CCDCA920068FDF0 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				E7C4FC5D1CCDCAE00068FDF0 /* brown.png */,
+				E7C4FC5E1CCDCAE00068FDF0 /* green.png */,
+				E7C4FC5F1CCDCAE00068FDF0 /* red.png */,
+				E7C4FC601CCDCAE00068FDF0 /* violet.png */,
+			);
+			name = Star;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C4FC251CCDCA830068FDF0 /* StarField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C4FC531CCDCA830068FDF0 /* Build configuration list for PBXNativeTarget "StarField" */;
+			buildPhases = (
+				E7C4FC221CCDCA830068FDF0 /* Sources */,
+				E7C4FC231CCDCA830068FDF0 /* Frameworks */,
+				E7C4FC241CCDCA830068FDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarField;
+			productName = StarField;
+			productReference = E7C4FC261CCDCA830068FDF0 /* StarField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7C4FC3E1CCDCA830068FDF0 /* StarFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C4FC561CCDCA830068FDF0 /* Build configuration list for PBXNativeTarget "StarFieldTests" */;
+			buildPhases = (
+				E7C4FC3B1CCDCA830068FDF0 /* Sources */,
+				E7C4FC3C1CCDCA830068FDF0 /* Frameworks */,
+				E7C4FC3D1CCDCA830068FDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C4FC411CCDCA830068FDF0 /* PBXTargetDependency */,
+			);
+			name = StarFieldTests;
+			productName = StarFieldTests;
+			productReference = E7C4FC3F1CCDCA830068FDF0 /* StarFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7C4FC491CCDCA830068FDF0 /* StarFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C4FC591CCDCA830068FDF0 /* Build configuration list for PBXNativeTarget "StarFieldUITests" */;
+			buildPhases = (
+				E7C4FC461CCDCA830068FDF0 /* Sources */,
+				E7C4FC471CCDCA830068FDF0 /* Frameworks */,
+				E7C4FC481CCDCA830068FDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C4FC4C1CCDCA830068FDF0 /* PBXTargetDependency */,
+			);
+			name = StarFieldUITests;
+			productName = StarFieldUITests;
+			productReference = E7C4FC4A1CCDCA830068FDF0 /* StarFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C4FC1E1CCDCA830068FDF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ngotruong;
+				TargetAttributes = {
+					E7C4FC251CCDCA830068FDF0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+					};
+					E7C4FC3E1CCDCA830068FDF0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E7C4FC251CCDCA830068FDF0;
+					};
+					E7C4FC491CCDCA830068FDF0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E7C4FC251CCDCA830068FDF0;
+					};
+				};
+			};
+			buildConfigurationList = E7C4FC211CCDCA830068FDF0 /* Build configuration list for PBXProject "StarField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7C4FC1D1CCDCA830068FDF0;
+			productRefGroup = E7C4FC271CCDCA830068FDF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C4FC251CCDCA830068FDF0 /* StarField */,
+				E7C4FC3E1CCDCA830068FDF0 /* StarFieldTests */,
+				E7C4FC491CCDCA830068FDF0 /* StarFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C4FC241CCDCA830068FDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C4FC611CCDCAE00068FDF0 /* brown.png in Resources */,
+				E7C4FC391CCDCA830068FDF0 /* LaunchScreen.storyboard in Resources */,
+				E7C4FC621CCDCAE00068FDF0 /* green.png in Resources */,
+				E7C4FC631CCDCAE00068FDF0 /* red.png in Resources */,
+				E7C4FC641CCDCAE00068FDF0 /* violet.png in Resources */,
+				E7C4FC361CCDCA830068FDF0 /* Assets.xcassets in Resources */,
+				E7C4FC341CCDCA830068FDF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FC3D1CCDCA830068FDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FC481CCDCA830068FDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C4FC221CCDCA830068FDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C4FC311CCDCA830068FDF0 /* ViewController.m in Sources */,
+				E7C4FC2E1CCDCA830068FDF0 /* AppDelegate.m in Sources */,
+				E7C4FC2B1CCDCA830068FDF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FC3B1CCDCA830068FDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C4FC441CCDCA830068FDF0 /* StarFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C4FC461CCDCA830068FDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C4FC4F1CCDCA830068FDF0 /* StarFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7C4FC411CCDCA830068FDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C4FC251CCDCA830068FDF0 /* StarField */;
+			targetProxy = E7C4FC401CCDCA830068FDF0 /* PBXContainerItemProxy */;
+		};
+		E7C4FC4C1CCDCA830068FDF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C4FC251CCDCA830068FDF0 /* StarField */;
+			targetProxy = E7C4FC4B1CCDCA830068FDF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7C4FC321CCDCA830068FDF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7C4FC331CCDCA830068FDF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7C4FC371CCDCA830068FDF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7C4FC381CCDCA830068FDF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7C4FC511CCDCA830068FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7C4FC521CCDCA830068FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7C4FC541CCDCA830068FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.StarField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7C4FC551CCDCA830068FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.StarField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7C4FC571CCDCA830068FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.StarFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarField.app/StarField";
+			};
+			name = Debug;
+		};
+		E7C4FC581CCDCA830068FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.StarFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarField.app/StarField";
+			};
+			name = Release;
+		};
+		E7C4FC5A1CCDCA830068FDF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.StarFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E7C4FC5B1CCDCA830068FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StarFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.StarFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StarField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C4FC211CCDCA830068FDF0 /* Build configuration list for PBXProject "StarField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C4FC511CCDCA830068FDF0 /* Debug */,
+				E7C4FC521CCDCA830068FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C4FC531CCDCA830068FDF0 /* Build configuration list for PBXNativeTarget "StarField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C4FC541CCDCA830068FDF0 /* Debug */,
+				E7C4FC551CCDCA830068FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7C4FC561CCDCA830068FDF0 /* Build configuration list for PBXNativeTarget "StarFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C4FC571CCDCA830068FDF0 /* Debug */,
+				E7C4FC581CCDCA830068FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7C4FC591CCDCA830068FDF0 /* Build configuration list for PBXNativeTarget "StarFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C4FC5A1CCDCA830068FDF0 /* Debug */,
+				E7C4FC5B1CCDCA830068FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7C4FC1E1CCDCA830068FDF0 /* Project object */;
+}
